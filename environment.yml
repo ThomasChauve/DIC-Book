@@ -1,0 +1,14 @@
+name: envDIC
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - jupyter-book
+  - matplotlib
+  - numpy
+  - xarray
+  - pip
+  - pip:
+    - -e git+https://github.com/ThomasChauve/xarray_symTensor2d.git@main#egg=xarray_symTensor2d
+    - -e git+https://github.com/ThomasChauve/xarray_dic.git@main#egg=xarray_dic
